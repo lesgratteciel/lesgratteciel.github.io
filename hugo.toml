@@ -1,4 +1,4 @@
-baseURL = 'https://lesgrattesciel.github.io/'
+baseURL = 'https://gratte-ciel.club/'
 languageCode = "fr-FR"
 timeZone = "Europe/Paris"
 theme = 'paige'
