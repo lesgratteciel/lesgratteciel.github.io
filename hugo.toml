@@ -65,7 +65,7 @@ weight = 50
 
 [[languages.fr.menu.main]]
 identifier = "blog"
-name = "Blog"
+name = "Actualités"
 url = "https://gratte-ciel-chamonix.blogspot.com/"
 weight = 30
 
