@@ -1,0 +1,10 @@
+---
+description: "Rechercher sur le site."
+layout: "paige/search"
+paige:
+  feed:
+    hide_page: true
+  search:
+    hide_page: true
+title: "Rechercher"
+---

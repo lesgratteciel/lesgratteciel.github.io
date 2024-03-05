@@ -1,0 +1,130 @@
+baseURL = 'https://lesgrattesciel.github.io/'
+languageCode = "fr-FR"
+timeZone = "Europe/Paris"
+theme = 'paige'
+copyright = "© Club les Gratte-Ciel"
+enablerobotstxt = true
+paginate = 50
+titlecasestyle = "Go"
+defaultContentLanguage = "fr"
+
+[paige]
+color = "#0d6efd"
+
+[languages.fr]
+title = "Les Gratte Ciel"
+weight = 10
+
+[[languages.fr.menu.main]]
+identifier = "home"
+name = "Accueil"
+logo = "Test"
+url = "/"
+weight = 10
+
+[[languages.fr.menu.main]]
+identifier = "voler_menu"
+name = "Voler à Chamonix"
+url = "/voler/"
+weight = 20
+
+[[languages.fr.menu.main]]
+identifier = "voler"
+name = "Voler à Chamonix"
+parent = "voler_menu"
+url = "/voler/"
+weight = 10
+
+[[languages.fr.menu.main]]
+identifier = "decollages"
+name = "Décollages"
+parent = "voler_menu"
+url = "/voler/decollages/"
+weight = 20
+
+[[languages.fr.menu.main]]
+identifier = "atterrissages"
+name = "Atterrissages"
+parent = "voler_menu"
+url = "/voler/atterrissages/"
+weight = 30
+
+[[languages.fr.menu.main]]
+identifier = "speedriding"
+name = "Speed-Riding"
+parent = "voler_menu"
+url = "/voler/speed_riding/"
+weight = 40
+
+[[languages.fr.menu.main]]
+identifier = "conditions"
+name = "Conditions"
+parent = "voler_menu"
+url = "/voler/conditions/"
+weight = 50
+
+[[languages.fr.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "https://gratte-ciel-chamonix.blogspot.com/"
+weight = 30
+
+[[languages.fr.menu.main]]
+identifier = "evenements"
+name = "Evènements"
+url = "/evenements/"
+weight = 40
+
+[[languages.fr.menu.main]]
+identifier = "nosactions"
+name = "Nos actions"
+url = "/nosactions/"
+weight = 50
+
+[[languages.fr.menu.main]]
+identifier = "contact"
+name = "Nous contacter"
+url = "mailto:lesgratteciel@gmail.com"
+weight = 60
+
+[[languages.fr.menu.main]]
+identifier = "search"
+name = "Rechercher"
+url = "/search/"
+weight = 90
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noclasses = false
+
+[markup.tableofcontents]
+endlevel = 6
+ordered = true
+startlevel = 2
+
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[outputs]
+home = ["atom", "html", "json", "rss"]
+section = ["atom", "html", "rss"]
+taxonomy = ["atom", "html", "rss"]
+term = ["atom", "html", "rss"]
+
+[params.authors.gratte-ciel]
+default = true
+email = "mail@example.com"
+name = "Gratte-Ciel"
+url = "https://example.org/"
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[params.paige]
+style = "#paige-content { width: 80%; }"
+

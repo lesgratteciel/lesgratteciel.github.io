@@ -1,0 +1,10 @@
+{{ $content := .Get 0 | markdownify }}
+
+<p style="text-align: center;"></p>
+<div class="container-fluid">
+    <div class="justify-content-center row">
+        <div class="col col-auto col-lg-10 px-0">
+            <p class="lead text-center">{{ $content }}</p>
+        </div>
+    </div>
+</div>

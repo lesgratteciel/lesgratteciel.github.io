@@ -1,0 +1,30 @@
+<style> 
+    .button-huge {
+        background-color: transparent;
+        line-height: 1;
+        vertical-align: middle;
+        padding: 10px 10px;
+        border-radius: 5px;
+        border: 1px solid #0d6efd;
+        color: #0d6efd;
+        font-size: xx-large;
+    }
+    .button-huge:hover {
+        background: #0d6efd;
+        color: #fcfbf9;
+        cursor: pointer; }
+
+    .button-huge a {
+        text-decoration: none; /* Remove underline from the link */
+        color: inherit; /* Inherit color from the button */ 
+    }
+</style>
+
+{{ $text := .Get 0 }}
+{{ $link := .Get 1 }}
+<link-btn type="button" class="button-huge">
+    <a href="{{ $link }}" target="_blank">{{ $text }}</a>
+</link-btn>
+
+
+

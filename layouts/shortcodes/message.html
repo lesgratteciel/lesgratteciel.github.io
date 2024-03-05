@@ -1,0 +1,43 @@
+{{ $url := printf "https://docs.google.com/spreadsheets/d/e/2PACX-1vQoUoJw1TnI3QGxY3aGVd8HWvKu6emcu8_YTxA8lvl0w-fG9FT4UTLYRtQzCjSSRNlEv2dewtiAdKAT/pub?gid=0&single=true&output=csv&cachebuster=%s" (now.Format "20060102150405") }}
+{{ $data := getCSV "," $url }}
+{{ $name := .Page.RelPermalink}}
+{{ $currentDate := now }}
+{{ range after 1 $data }}
+    {{ $path := index . 0 }}
+    {{ if eq $name $path }}
+        {{ $type := index . 1 | default "primary" }}
+        {{ $message := index . 2 | markdownify }}
+        {{ $start := index . 3 }}
+        {{ $end := index . 4 }}
+        {{ if ne $start ""}}
+            {{ $parsedDate := $start | time }}
+            {{ if $parsedDate.Before $currentDate }}
+                {{ if ne $end "" }}
+                    {{ $parsedDate := $end | time }}
+                    {{ if $parsedDate.After $currentDate }}
+                        {{ if ne $message "" }}
+                            <div class="text-center">
+                                <div class="alert alert-{{ $type }} justify-content-center" role="alert" style="text-align: center; display: inline-block;">{{ $message }}</div>
+                            </div>
+                        {{ end }}
+                        {{ continue }}
+                    {{ end }}
+                {{ else }}
+                    {{ if ne $message "" }}
+                        <div class="text-center">
+                            <div class="alert alert-{{ $type }} justify-content-center" role="alert" style="text-align: center; display: inline-block;">{{ $message }}</div>
+                        </div>
+                    {{ end }}
+                    {{ continue }}
+                {{ end }}
+            {{ end }}
+        {{ else }}
+            {{ if ne $message "" }}
+                <div class="text-center">
+                    <div class="alert alert-{{ $type }} justify-content-center" role="alert" style="text-align: center; display: inline-block;">{{ $message }}</div>
+                </div>
+            {{ end }}
+            {{ continue }}
+        {{ end }}
+    {{ end }}
+{{ end }}
