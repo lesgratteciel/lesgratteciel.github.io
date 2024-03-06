@@ -12,7 +12,6 @@ title = "Voler à Chamonix"
 
 <br/>
 
-## Réglementation Aérienne à Chamonix
 
 Les zones réglementées “`LF-R 30 A` et `LF-R30 B` Mont-Blanc“ ont été créées et mises en vigueur le 22 mars 2001 par décret ministériel. Elles imposent un contournement obligatoire pour les planeurs ultras-légers (PUL). Les parapentes et deltas ne doivent donc pas pénétrer cette zone à moins d’être à une hauteur de 1 000 m par rapport au sol et au-dessus du niveau de vol FL 115 (3 500 m).
 Cette zone protège les opérations des hélicoptères en mission de secours en montagne.
