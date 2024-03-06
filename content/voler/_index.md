@@ -10,7 +10,7 @@ title = "Voler à Chamonix"
 <iframe src="https://www.google.com/maps/d/embed?mid=1-0Whus2Wcv1AKGSwtqlEk9feJ2LHei8&ehbc=2E312F" width="100%" height="700"></iframe>
 
 
-
+<br/>
 ## Réglementation Aérienne à Chamonix
 
 Les zones réglementées “`LF-R 30 A` et `LF-R30 B` Mont-Blanc“ ont été créées et mises en vigueur le 22 mars 2001 par décret ministériel. Elles imposent un contournement obligatoire pour les planeurs ultras-légers (PUL). Les parapentes et deltas ne doivent donc pas pénétrer cette zone à moins d’être à une hauteur de 1 000 m par rapport au sol et au-dessus du niveau de vol FL 115 (3 500 m).
@@ -44,7 +44,7 @@ Cette zone protège les opérations des hélicoptères en mission de secours en 
 
 #### `LF R 30 C` zone temporaire du 1er au 30 juin et du 1er septembre au 15 octobre
 
-##### Pénétration autorisée,atterrissages interdits sauf pour l'enchaînement alpinisme-parapente et le paralpinisme.
+**Pénétration autorisée,atterrissages interdits sauf pour l'enchaînement alpinisme-parapente et le paralpinisme.**
 
 • Aiguille de Bionnassay.
 • Ligne de crête entre le sommet de l’aiguille de Bionnassay jusqu’à la pointe inférieure de Tricot.
