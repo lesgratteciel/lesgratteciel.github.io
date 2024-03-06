@@ -1,6 +1,6 @@
 +++
 date = 2024-02-29T17:45:41+01:00
-description = "Réglementations, décollages et atterrissage à Chamonix"
+description = "Réglementations, décollages et atterrissages à Chamonix"
 tags = ["décollages", "atterrissages"]
 title = "Voler à Chamonix"
 +++
