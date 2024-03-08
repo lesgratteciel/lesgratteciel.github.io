@@ -26,7 +26,7 @@ disable = false
 {{< description "Coordonnées : [```45°53'55.3\"N 6°46'41.2\"E```](https://maps.app.goo.gl/M5XjeRpCgFtJS1U4A)<br/>Altitude : 1 010 m. Site en cours de conventionnement avec la [FFVL](https://federation.ffvl.fr/terrain/1168)." >}}
 
 ## Réglementation Spécifique
-* Vérifier que les foins sont faits et que le terrain est toujours autorisé
+* Vérifier que les foins sont faits et que le terrain est toujours autorisé.
 
 ## Accès
 * À 500 m du parking gratuit de la télécabine du Prarion; prendre le cul de sac au fond des Chavants.
