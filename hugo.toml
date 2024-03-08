@@ -30,7 +30,7 @@ weight = 20
 
 [[languages.fr.menu.main]]
 identifier = "voler"
-name = "Règlementation"
+name = "Réglementation"
 parent = "voler_menu"
 url = "/voler/"
 weight = 10
