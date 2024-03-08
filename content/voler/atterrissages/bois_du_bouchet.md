@@ -29,7 +29,7 @@ disable = false
 <p style="text-align: center;">{{< button "Webcam" "https://www.skaping.com/chamonix-mont-blanc" >}}&emsp;{{< button "Balise" "https://www.balisemeteo.com/balise.php?idBalise=5026" >}}</p>
 
 ## Réglementation Spécifique
-Il est interdit d'atterir avec les ski ou crampons par arrêtés municipal durant l'exploitation du domaine nordique. D'autres arrêtés municipaux interdisent parfois le posé au profit d'évènements sportifs ou culturels qui mobilisent le terrain du Bois du Bouchet.
+Il est interdit d'atterir avec les ski ou crampons par arrêté municipal durant l'exploitation du domaine nordique. D'autres arrêtés municipaux interdisent parfois le posé au profit d'évènements sportifs ou culturels qui mobilisent le terrain du Bois du Bouchet.
 Renseignez-vous auprès du club, des écoles professionnelles et sur les panneaux d'informations.
 
 ## Accès
