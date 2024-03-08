@@ -24,5 +24,3 @@ hide_page = true
 <p style="text-align: center;">{{% paige/image alt="Vol libre à Chamonix" breakpoints=true class="object-fit-cover rounded-5" fetchpriority="high" loading="eager" process="webp" src="/photos/glacier.webp" width="80%" %}}</p>
 
 {{< description8 "Association à but non lucratif crée le 21 juillet 1987.<br/> Affilié à la [Fédération Française de Vol Libre](https://federation.ffvl.fr/structure/304) (FFVL) et agréé par le Ministère de la Jeunesse et des Sports (Agrément #3374).<br/> Notre but est de promouvoir la pratique du vol libre (parapente, speed-riding) pour tous dans la vallée de Chamonix." >}}
-
-<p style="text-align: center;">{{< button_huge "Adhérer aux Gratte-Ciel" "https://www.helloasso.com/associations/les-gratte-ciel/paiements/devenir-membre-des-gratte-ciel/widget">}}</p>
