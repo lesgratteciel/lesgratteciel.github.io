@@ -36,32 +36,33 @@ url = "/voler/"
 weight = 10
 
 [[languages.fr.menu.main]]
+identifier = "conditions"
+name = "Conditions"
+parent = "voler_menu"
+url = "/voler/conditions/"
+weight = 20
+
+[[languages.fr.menu.main]]
 identifier = "decollages"
 name = "Décollages"
 parent = "voler_menu"
 url = "/voler/decollages/"
-weight = 20
+weight = 30
 
 [[languages.fr.menu.main]]
 identifier = "atterrissages"
 name = "Atterrissages"
 parent = "voler_menu"
 url = "/voler/atterrissages/"
-weight = 30
+weight = 40
 
 [[languages.fr.menu.main]]
 identifier = "speedriding"
 name = "Speed-Riding"
 parent = "voler_menu"
 url = "/voler/speed_riding/"
-weight = 40
-
-[[languages.fr.menu.main]]
-identifier = "conditions"
-name = "Conditions"
-parent = "voler_menu"
-url = "/voler/conditions/"
 weight = 50
+
 
 [[languages.fr.menu.main]]
 identifier = "blog"
