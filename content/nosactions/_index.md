@@ -1,5 +1,5 @@
 ---
-description: "Demonstrations of Paige content."
+description: ""
 title: "Nos Actions"
 date: "2024-02-27"
 paige:
